@@ -15,7 +15,8 @@ To capture live network packets using Wireshark and identify basic protocols.
 At least three protocols were successfully identified: 
 **1. DNS (Domain Name System)**
 * **What is DNS?**
-   Think of DNS as the "phone book of the internet". Its main job is to translate human-readable domain names (like `google.com`) into machine-readable IP addresses (like `172.217.14.228`).
+   
+  Think of DNS as the "phone book of the internet". Its main job is to translate human-readable domain names (like `google.com`) into machine-readable IP addresses (like `172.217.14.228`).
 * **Finding:** Filtered for `dns` to observe queries from my PC requesting the IP address for a domain name.
 * **Screenshot:**
     ![DNS Filter](DNS.png)
