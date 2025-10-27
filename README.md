@@ -23,7 +23,6 @@ At least three protocols were successfully identified:
 **2. UDP (User Datagram Protocol)**
 * **What is UDP?**
 * UDP is a speedy and lightweight "connectionless" protocol. It sends units of data (datagrams) without resending dropped packets tha are out-of-order, and without providing guarantees on whether the packets will arrive intact or in order. It values speed over absolute reliability.
-
 * **Finding:** Filtered for `udp`. The DNS queries were transported using UDP, as seen in the packet details.
 * **Screenshot:**
     ![UDP Filter](UDP.png)
