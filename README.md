@@ -44,6 +44,6 @@ At least three protocols were successfully identified:
 ### Deliverables
 This repository contains:
 * `Cyber Internship Task 5.pcap`: The raw packet capture file.
-   ![Wireshark File](Cyber%20Internship%20Task%205)
+   ![Wireshark File](Cyber%20Internship%20Task%205.pcap)
 * `README.md`: This summary report.
 * Screenshots of the filtered protocols. 
