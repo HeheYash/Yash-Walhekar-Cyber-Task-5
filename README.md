@@ -29,7 +29,7 @@ At least three protocols were successfully identified:
 **3. TCP (Transmission Control Protocol)**
 * **Finding:** Filtered for `tcp`, revealing the three-way handshake (SYN, SYN-ACK, ACK) used to establish a reliable connection for web browsing.
 * **Screenshot:**
-    ![TCP Filter](TCP.jpg)
+    ![TCP Filter](TCP.png)
 
 **4. TLS (Transport Layer Security)**
 * **Finding:** Filtered for `tls`. This protocol encrypted my web browser traffic (`https`), which is why `http` packets were not visible.
